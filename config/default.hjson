@@ -1,0 +1,35 @@
+{
+  host: localhost
+  wtpsThreshold: 50
+  monitorPeriod: 10
+  Z: 6
+  concurrent: 1
+  maxRetries: 5
+  retryDelay: 5000
+  port: 5433
+  dbUser: postgress
+  dbPassword: ABCDEFG
+  relations: [
+    un_base::custom_planet_land_a
+    un_base::custom_planet_land_a_l08
+    un_base::custom_planet_ocean
+    un_base::custom_planet_ocean_l08
+    un_base::un_mission_lc_ls
+    un_base::un_glc30_global_lc_ms
+   ]
+  defaultDate: 2020-07-01
+  mbtilesDir: /data/mbtiles/un-sub
+  propertyBlacklist: [
+    description
+    fid
+    fid_1
+    globalid
+    id
+    objectid
+    objectid_1
+    osm_id
+    pseudoarea
+  ]
+  spinnerString: 18
+  fetchSize: 100
+}
