@@ -10,8 +10,6 @@
   dbUser: postgress
   dbPassword: ABCDEFG
   relations: [
-    un_base::custom_planet_land_a
-    un_base::custom_planet_land_a_l08
     un_base::custom_planet_ocean
     un_base::custom_planet_ocean_l08
     un_base::un_mission_lc_ls
