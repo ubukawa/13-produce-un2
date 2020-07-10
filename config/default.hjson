@@ -1,5 +1,6 @@
 {
   host: localhost
+  unixUser: test\taro.ubukawa
   wtpsThreshold: 50
   monitorPeriod: 10
   Z: 6
